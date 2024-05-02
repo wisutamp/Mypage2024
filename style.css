@@ -1,4 +1,79 @@
-table,td,tr {
-    border: 2px solid rgb(25, 24, 24);
- }
- 
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+    font-size: 10dvb; 
+    /* font-family: 'Mitr', sans-serif; */
+   /* ขอให้ทุกคนใช้ค่าเริ่มต้นตามนี้ก่อน */
+}
+
+h1{
+    /* width: 30%; */
+
+    margin: 50px auto 0 auto;
+    font-family: 'Mitr', sans-serif;
+    font-size: 5.625rem; /* 90px 5.625em 5.625rem(ไม่สืบทอดจาก parent)*/
+    /* 100 % = 1em = 16px*/
+    /* display:flex;
+    justify-content: center; */
+    /* text-align: center; */
+}
+h2{
+    font-size: 2.5rem; /* 2.5 * 16 px = 40px */
+}
+img{
+    /* margin: auto;
+    display:block; */
+}
+span {
+    text-decoration: underline;
+}
+
+/* Class Selector */
+.bottom-cloud{
+    position: absolute; /*หลุด flow อ้างอิงแม่ ที่มี relative */
+    left: 300px;
+    bottom: 300px;
+}
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+.top-container {
+    background-color: rgb(25, 174, 97);
+    padding-top: 100px;
+    position: relative;
+}
+.profile {
+    padding: 100px;
+    background-color: rgb(230, 188, 197);
+}
+.profile-img {
+    width: 25%;
+    border-radius: 50% ;
+}
+.skills{
+    padding: 100px;
+}
+.skill-row {
+    width: 40%;
+    margin: 50px auto; /* Top, Bottom = 0, Left,Right=Auto */
+    /* text-align: left; */
+    /* border-style:dashed; */
+    padding: 10px;
+}
+
+.img-java {
+    width: 30%;
+    /* margin-right: 20px;
+    float: left; */
+}
+.img-ai{
+    width: 40%;
+    /* float: right; */
+}
+.img-react {
+    width: 8dvh;
+    /* float: left; */
+}
