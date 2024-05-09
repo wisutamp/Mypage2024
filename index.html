@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Mitr&display=swap" rel="stylesheet">
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class = "top-container">
-        <img class = "top-cloud" src="cloud.png" alt="grey cloud 1">
-        <h1>วิสุทธิ์ อำพันธ์พงศ์</h1>
-        <h2>CP ALL Company <span</h2>
-        <img class = "bottom-cloud" src="cloud.png" alt="grey cloud 2">
-        <img src="mountain.png" alt="mountain">
-    </div>
-    <div class="middle-container">
-        <div class="profile">
-          <img class = "profile-img" src="Profile Full Stake2024.jpg" alt="">  
-          <h2>สวัสดี</h2>
-          <h2>ผมชื่อ วิสุทธิ์ อำพันธ์พงศ์ พนักงาน บริษัท ซีพี ออลล์ สำนักปฎิบัติการ ฝ่าย สำรวจศักยภาพทำล</div>
-        <hr>
+    <div class="profile-detail">
+   <div class="quiz-container">
+       <h1></h1>
+       <p id="question">PIM ย่อมาจากอะไร ?</p>
+       <button class="button" onclick="checkAnswer('a')">A) พีไอเอ็ม</button>
+       <button class="button" onclick="checkAnswer('b')">B) ปิ๋ม</button>
+       <button class="button" onclick="checkAnswer('c')">C) พิม</button>
+       <button class="button" onclick="checkAnswer('d')">D) ภีม</button>
+       <p id="result"></p>
+   </div>
+   <br>
+   <div class="quiz-container2">
+    <p id="question">[บริษัท ซีพี ออลล์ จำกัด (มหาชน ] ?</p>
+    <button class="button" onclick="checkAnswer2('a')">A) สำนักบริหาร</button>
+    <button class="button" onclick="checkAnswer2('b')">B) สำนักทรัพยากรบุคคล</button>
+    <button class="button" onclick="checkAnswer2('c')">C) สำนักปฎิบัติการ</button>
+    <button class="button" onclick="checkAnswer2('d')">D) สำนักประสานรัฐกิจ</button>
+    <p id="result2"></p>
+</div>
+<br>
+<p id="result3"></p>
+</div>
+   <script src="index.js"></script>
+
+</body>
+</html>
